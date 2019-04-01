@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
+let emoji = client.guilds.get("562340834553364536").emojis.find(r => r.name === "hearts ");
 
 
 // playing
 client.on('ready', () => {                           
 });
 
-let emoji = client.guilds.get("562240223556272151").emojis.find(r => r.name === "hearts ");
+
 
 
 
