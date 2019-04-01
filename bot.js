@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-let emoji = client.guilds.get("553973946354237440").emojis.find(r => r.name === "mag");
 
 
 // playing
@@ -12,6 +11,8 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
+let emoji = client.guilds.get("553973946354237440").emojis.find(r => r.name === "mag");
+
               var prefix = "$" ;
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
     let pages = [`**
