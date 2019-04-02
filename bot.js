@@ -14,6 +14,7 @@ client.on('message', message => {
 let emoji = client.guilds.get("553973946354237440").emojis.find(r => r.name === "mag");
 let emoji2 = client.guilds.get("553973946354237440").emojis.find(r => r.name === "Mfire");
 let emoji3 = client.guilds.get("553973946354237440").emojis.find(r => r.name === "mag2");
+let emoji4 = client.guilds.get("553973946354237440").emojis.find(r => r.name === "purple");
 
               var prefix = "$" ;
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By Magic0
@@ -21,23 +22,23 @@ if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send
         **${emoji3}  𝗣𝗨𝗣𝗟𝗜𝗖 - 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦   ${emoji}**
 
 **
-${emoji2}**|-server ⟿⟿⟿⟿⟿ About the server)|**
+${emoji2}**|-server ⟿⟿⟿⟿⟿ About the server)|**${emoji4}
 
-${emoji2}**|-allbots ⟿⟿ Nubmers bots in server|**
+${emoji2}**|-allbots ⟿⟿ Nubmers bots in server|**${emoji4}
 
-${emoji2}**|-botin ⟿⟿⟿⟿⟿⟿ Bot Information|**
+${emoji2}**|-botin ⟿⟿⟿⟿⟿⟿ Bot Information|**${emoji4}
 
-${emoji2}**|-report ⟿⟿⟿⟿⟿ Report a member|**
+${emoji2}**|-report ⟿⟿⟿⟿⟿ Report a member|**${emoji4}
 
-${emoji2}**|-support ⟿⟿ Contact with the bot owner|**
+${emoji2}**|-support ⟿⟿ Contact with the bot owner|**${emoji4}
 
-${emoji2}**|-avatar ⟿⟿⟿⟿⟿ View your avatar|**
+${emoji2}**|-avatar ⟿⟿⟿⟿⟿ View your avatar|**${emoji4}
 
-${emoji2}**|-members ⟿⟿⟿⟿ Status of member|**
+${emoji2}**|-members ⟿⟿⟿⟿ Status of member|**${emoji4}
 
-${emoji2}**|-say ⟿⟿⟿⟿⟿⟿ Status of member|**
+${emoji2}**|-say ⟿⟿⟿⟿⟿⟿ Status of member|**${emoji4}
 
-${emoji2}**|-emojis ⟿⟿⟿⟿⟿ Emoji Of Server|**
+${emoji2}**|-emojis ⟿⟿⟿⟿⟿ Emoji Of Server|**${emoji4}
 
   `
 ,`
