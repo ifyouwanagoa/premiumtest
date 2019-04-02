@@ -12,32 +12,33 @@ client.on('ready', () => {
 
 client.on('message', message => {
 let emoji = client.guilds.get("553973946354237440").emojis.find(r => r.name === "mag");
+let emoji2 = client.guilds.get("553973946354237440").emojis.find(r => r.name === "Mfire");
+let emoji3 = client.guilds.get("553973946354237440").emojis.find(r => r.name === "mag2");
 
               var prefix = "$" ;
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
     let pages = [`**
 let emoji = client.guilds.get("562240223556272151").emojis.find(r => r.name === "hearts ");
-        ***__General orders__***
+        **${emoji3}  𝙋𝙪𝙥𝙡𝙞𝙘-𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨  ${emoji}**
 **
-${emoji}
-🖤|-nick ⟿ Change nickname all members|🖤
-🖤|-banlist ⟿⟿ Number Ban from server|🖤
-🖤|-bc ⟿⟿⟿ Brodcast all member|🖤
-🖤|-call ⟿⟿ Contact with admin|🖤
-🖤|-kv ⟿⟿⟿⟿⟿ Kick from voice|🖤
-🖤|-kick ⟿⟿⟿⟿⟿⟿ Kick member|🖤
-🖤|-ban ⟿⟿⟿⟿⟿⟿⟿ Ban member|🖤
-🖤|-role all ⟿⟿⟿⟿⟿ From All|🖤
-🖤|-role humans ⟿ From All Humans|🖤
-🖤|-role bots ⟿⟿⟿ From All Bots|🖤
-🖤|-clear ⟿⟿⟿⟿ Delete all chat|🖤
-🖤|-mvall ⟿ Move all to you voice|🖤
-🖤|-hc ⟿⟿⟿⟿⟿⟿⟿ Hide channel|🖤
-🖤|-sc ⟿⟿⟿⟿⟿⟿⟿ Show channel|🖤
-🖤|-mc ⟿⟿⟿⟿⟿⟿⟿ Mute channel|🖤
-🖤|-unmc ⟿⟿⟿⟿⟿ Unmute channel|🖤
-🖤|-mute ⟿⟿⟿⟿⟿⟿ Mute member|🖤
-🖤|-unmute ⟿⟿⟿⟿ Unmute member|🖤
+${emoji3}|-server ⟿⟿⟿⟿⟿ About the server)|
+
+${emoji3}|-allbots ⟿⟿ Nubmers bots in server|
+
+${emoji3}|-botin ⟿⟿⟿⟿⟿⟿ Bot Information|
+
+${emoji3}|-report ⟿⟿⟿⟿⟿ Report a member|
+
+${emoji3}|-support ⟿⟿ Contact with the bot owner|
+
+${emoji3}|-avatar ⟿⟿⟿⟿⟿ View your avatar|
+
+${emoji3}|-members ⟿⟿⟿⟿ Status of member|
+
+${emoji3}|-say ⟿⟿⟿⟿⟿⟿ Status of member|
+
+${emoji3}|-emojis ⟿⟿⟿⟿⟿ Emoji Of Server|
+
 
   `
 ,`
