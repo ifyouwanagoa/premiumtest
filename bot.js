@@ -115,8 +115,8 @@ ${prefix}voiceonline / لتفعيل روم الفويس اونلاين
 
     message.author.sendEmbed(embed).then(msg => {
 
-        msg.react(':arrow_left:').then( r => {
-            msg.react(':arrow_right:')
+        msg.react('⏮').then( r => {
+            msg.react('⏭')
 
 
         const backwardsFilter = (reaction, user) => reaction.emoji.name === '⏮' && user.id === message.author.id;
