@@ -44,7 +44,7 @@ ${emoji2}**|-emojis ⟿⟿⟿⟿⟿ Emoji Of Server|**${emoji4}
 ,`
         **${emoji3}  𝗔𝗗𝗠𝗜𝗡𝗜𝗦𝗧𝗥𝗔𝗧𝗢𝗥 - 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦  ${emoji}**
 **
-${emoji2}**|$nick ⟿ Change nickname all members|**${emoji4} **hi**
+${emoji2}**|$nick ⟿ Change nickname all members|**${emoji4} 
 
 ${emoji2}**|$banlist ⟿⟿ Number Ban from server|**${emoji4}
 
@@ -78,39 +78,18 @@ ${emoji2}**|$unmc ⟿⟿⟿⟿⟿ Unmute channel|**${emoji4}
 
 ${emoji2}**|$mute ⟿⟿⟿⟿⟿⟿ Mute member|**${emoji4}
 
-${emoji2}**|$unmute ⟿⟿⟿⟿ Unmute member|**${emoji4}
+${emoji2}**|$unmute ⟿⟿⟿⟿ Unmute member|${emoji4}
 
    `,`
-        ***__Music orders__***
+        **${emoji3}  **DANGER** - 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦  ${emoji}**
 **
-${prefix}play / لتشغيل أغنية برآبط أو بأسم
-${prefix}skip / لتجآوز الأغنية الحآلية
-${prefix}pause / إيقآف الأغنية مؤقتا
-${prefix}resume / لموآصلة الإغنية بعد إيقآفهآ مؤقتا
-${prefix}vol / لتغيير درجة الصوت 100 - 0
-${prefix}stop / لإخرآج البوت من الروم
-${prefix}np / لمعرفة الأغنية المشغلة حآليا
-${prefix}queue / لمعرفة قآئمة التشغيل
+${emoji2}**|$dc ⟿⟿⟿ Delete all channels**${emoji4}
+
+${emoji2}**|$dr ⟿⟿⟿⟿ Delete all roles**${emoji4}
+
+${emoji2}**|$inv ⟿⟿⟿⟿ Invite bot owner**${emoji4}
 **
-        ***__Games orders__***
- **       
-${prefix}rps / حجر ورقة مقص
-${prefix}speed / اسرع كتابة
-${prefix}quas / اسئلة عامة
-${prefix}نكت / نكت 
-${prefix}لعبة فكك / فكك
-${prefix}عواصم عشوائي/عواصم
-${prefix}لعبة كت تويت / كت تويت
-${prefix}roll <number> / قرعة
-${prefix}لو خيروك بطريقة حلوة / لو خيروك
-${prefix}لعبة مريم / مريم
-${prefix}فوائد ونصائح  / هل تعلم
-${prefix}يعطيك عقابات قاسية / عقاب 
-=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.
-welcome يتم الترحيب فى روم باسم
-G.setwelcomer <text channel name> لاختيار روم للترحيب
-${prefix}voiceonline / لتفعيل روم الفويس اونلاين
-**
+
    
 `]
     let page = 1;
