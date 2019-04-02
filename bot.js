@@ -81,7 +81,7 @@ ${emoji2}**|$mute ⟿⟿⟿⟿⟿⟿ Mute member|**${emoji4}
 ${emoji2}**|$unmute ⟿⟿⟿⟿ Unmute member|${emoji4}
 
    `,`
-        **${emoji3}  **DANGER** - 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦  ${emoji}**
+        **${emoji3}  𝗣 - 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦  ${emoji}**
 **
 ${emoji2}**|$dc ⟿⟿⟿ Delete all channels**${emoji4}
 
