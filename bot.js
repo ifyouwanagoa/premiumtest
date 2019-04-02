@@ -16,7 +16,7 @@ let emoji2 = client.guilds.get("553973946354237440").emojis.find(r => r.name ===
 let emoji3 = client.guilds.get("553973946354237440").emojis.find(r => r.name === "mag2");
 
               var prefix = "$" ;
-if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
+if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By Magic0
     let pages = [`**
         **${emoji3}  𝗣𝗨𝗣𝗟𝗜𝗖 - 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦   ${emoji}**
 
@@ -114,8 +114,8 @@ ${prefix}voiceonline / لتفعيل روم الفويس اونلاين
 
     message.author.sendEmbed(embed).then(msg => {
 
-        msg.react('⏮').then( r => {
-            msg.react('⏭')
+        msg.react(':arrow_left:').then( r => {
+            msg.react(':arrow_right:')
 
 
         const backwardsFilter = (reaction, user) => reaction.emoji.name === '⏮' && user.id === message.author.id;
