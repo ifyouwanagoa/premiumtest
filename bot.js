@@ -927,12 +927,7 @@ message.channel.send(`** ${args}**`);
 }
 });
 
-client.on("ready", () => { // كود رينبو
-  function lol() {
-    client.guilds.get('521126103587225630').roles.find("name", "Rainbow").setColor("RANDOM");
-  };
-  setInterval(lol, 2000);
-});
+
 
 
 client.login(process.env.BOT_TOKEN);
