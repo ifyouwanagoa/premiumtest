@@ -42,36 +42,43 @@ ${emoji2}**|-emojis ⟿⟿⟿⟿⟿ Emoji Of Server|**${emoji4}
 
   `
 ,`
-        ***__Administrative Orders__***
+        **${emoji3}  𝗔𝗗𝗠𝗜𝗡𝗜𝗦𝗧𝗥𝗔𝗧𝗔𝗥 - 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦$  {emoji}**
 **
-${prefix}move @user /  لسحب الشخص الى روومك
-${prefix}bc / رسالة جماعية الى كل اعضاء السيرفر
-${prefix}bk / رسالة جماعيه مع
-${prefix}rolebc <everyone or @role> / راسال رساله جماعيه لرتبه محدده
-${prefix}role @user <rank> / لأعطاء رتبة لعضو معين
-${prefix}roleremove @user <rank> / لازالة الرتبة من شخص معين
-${prefix}give all <rank> / لأعطاء رتبة للجميع
-${prefix}give humans <rank> / لأعطاء رتبة للاشخاص فقط
-${prefix}give bots <rank> / لأعطاء رتبة لجميع البوتات
-${prefix}hchannel / اخفاء الشات
-${prefix}schannel / اضهار الشات المخفية
-${prefix}clr <numbr> / مسح الشات بعدد
-${prefix}clear / مسح الشات
-${prefix}mute @user <time> / اعطاء العضو ميوت 
-${prefix}unmute @user / لفك الميوت عن الشخص 
-${prefix}kick @user <reason> / طرد الشخص من السيرفر
-${prefix}ban @user <reason> / حضر الشخص من السيرفر
-${prefix}mutechannel / تقفيل الشات
-${prefix}unmutechannel / فتح الشات
-${prefix}dc / مسح كل الرومات
-${prefix}dr / <مسح كل الرانكات <لازم تكون رانك البوت فوق كل الرانكات
-${prefix}ct <name> / انشاء شات
-${prefix}cv <name> / انشاء رووم فويس
-${prefix}temp / لانشاء روم مؤقت
-${prefix}delet <name> / مسح الشات او الرووم فويس
-${prefix}make <number> / ينشا لك الوان مع كم الوان تبي
-${prefix}color <number> / لختيار لون
-${prefix}deletecolors <number> / لحذف الالوان
+${emoji2}**|$nick ⟿ Change nickname all members|**${emoji4}
+
+${emoji2}**|$banlist ⟿⟿ Number Ban from server|**${emoji4}
+
+${emoji2}**|$bc ⟿⟿⟿ Brodcast all member|**${emoji4}
+
+🖤($call ⟿⟿ Contact with admin|**${emoji4}
+
+${emoji2}**|$kv ⟿⟿⟿⟿⟿ Kick from voice|**${emoji4}
+
+${emoji2}**|$kick ⟿⟿⟿⟿⟿⟿ Kick member|**${emoji4}
+
+${emoji2}**|$ban ⟿⟿⟿⟿⟿⟿⟿ Ban member|**${emoji4}
+
+${emoji2}**|$role all ⟿⟿⟿⟿⟿ From All|**${emoji4}
+
+${emoji2}**|$role humans ⟿ From All Humans|**${emoji4}
+
+${emoji2}**|$role bots ⟿⟿⟿ From All Bots|**${emoji4}
+
+${emoji2}**|$clear ⟿⟿⟿⟿ Delete all chat|**${emoji4}
+
+${emoji2}**|$mvall ⟿ Move all to you voice|**${emoji4}
+
+${emoji2}**|$hc ⟿⟿⟿⟿⟿⟿⟿ Hide channel|**${emoji4}
+
+${emoji2}**|$sc ⟿⟿⟿⟿⟿⟿⟿ Show channel|**${emoji4}
+
+${emoji2}**|$mc ⟿⟿⟿⟿⟿⟿⟿ Mute channel|**${emoji4}
+
+${emoji2}**|$unmc ⟿⟿⟿⟿⟿ Unmute channel|**${emoji4}
+
+${emoji2}**|$mute ⟿⟿⟿⟿⟿⟿ Mute member|**${emoji4}
+
+${emoji2}**|$unmute ⟿⟿⟿⟿ Unmute member|**${emoji4}
 **
    `,`
         ***__Music orders__***
