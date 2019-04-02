@@ -95,7 +95,7 @@ ${emoji2}**|$inv ⟿⟿⟿⟿ Invite bot owner**${emoji4}
     let page = 1;
 
     let embed = new Discord.RichEmbed()
-    .setColor('RANDOM')
+    .setColor('#010a75')
     .setFooter(`Page ${page} of ${pages.length}`)
     .setDescription(pages[page-1])
 
@@ -135,57 +135,13 @@ ${emoji2}**|$inv ⟿⟿⟿⟿ Invite bot owner**${emoji4}
 }); 
 
 
-
-
-
-
-
-client.on('message', message => {
-              var prefix = "$" ;
-  if (message.content.startsWith(prefix + "admin")) {
-  let embed = new Discord.RichEmbed()
-      .setColor("RANDOM")
-      .setDescription(`
-🕴_____ 🖤😎 - Premium BotEpic - 😎🖤  _____🕴
-
-🖤(-nick ⟿ Change nickname all members)🖤
-🖤(-banlist ⟿⟿ Number Ban from server)🖤
-🖤(-bc ⟿⟿⟿ Brodcast all member)🖤
-🖤(-call ⟿⟿ Contact with admin)🖤
-🖤(-kv ⟿⟿⟿⟿⟿ Kick from voice)🖤
-🖤(-kick ⟿⟿⟿⟿⟿⟿ Kick member)🖤
-🖤(-ban ⟿⟿⟿⟿⟿⟿⟿ Ban member)🖤
-🖤(-role all ⟿⟿⟿⟿⟿ From All)🖤
-🖤(-role humans ⟿ From All Humans)🖤
-🖤(-role bots ⟿⟿⟿ From All Bots)🖤
-🖤(-clear ⟿⟿⟿⟿ Delete all chat)🖤
-🖤(-mvall ⟿ Move all to you voice)🖤
-🖤(-hc ⟿⟿⟿⟿⟿⟿⟿ Hide channel)🖤
-🖤(-sc ⟿⟿⟿⟿⟿⟿⟿ Show channel)🖤
-🖤(-mc ⟿⟿⟿⟿⟿⟿⟿ Mute channel)🖤
-🖤(-unmc ⟿⟿⟿⟿⟿ Unmute channel)🖤
-🖤(-mute ⟿⟿⟿⟿⟿⟿ Mute member)🖤
-🖤(-unmute ⟿⟿⟿⟿ Unmute member)🖤
-
-🕴_____ 🖤😎 - Permium BotEpic - 😎🖤  _____🕴
-
- `)
-   message.channel.sendEmbed(embed)
-   
-	  
-	  
-   }
-   });
-
-
-
 client.on('ready', () => {
   console.log('I am ready!');
 });
-client.on('message',async message => {//Toxic Code
+client.on('message',async message => {//Magic0
   if(message.author.bot || message.channel.type === '$bc') return;
   let args = message.content.split(' ');
-  if(args[0] === `$bc`) {//Toxic Code
+  if(args[0] === `$bc`) {//Magic0
     if(!message.member.hasPermission("MANAGE_GUILD")) return message.channel.send('- **أنت لا تملك الصلاحيات اللازمة لأستخدام هذا الأمر**');
     if(!args[1]) return message.channel.send('- **يجب عليك كتابة الرسالة بعد الأمر**');
  
@@ -193,8 +149,8 @@ client.on('message',async message => {//Toxic Code
     let errorCount = 0;
     let successCount = 0;
     message.channel.send(`**- [ :bookmark: :: ${msgCount} ] ・عدد الرسائل المرسلة**\n**- [ :inbox_tray: :: ${successCount} ] ・عدد الرسائل المستلمة**\n**- [ :outbox_tray: :: ${errorCount} ]・عدد الرسائل الغير مستلمة**`).then(msg => {//Toxic Code
-      message.guild.members.forEach(g => {//Toxic Code
-        g.send(args.slice(1).join(' ')).then(() => {//Toxic Code
+      message.guild.members.forEach(g => {//Magic0	
+        g.send(args.slice(1).join(' ')).then(() => {//Magic0
           successCount++;
           msgCount++;
           msg.edit(`**- [ :bookmark: :: ${msgCount} ] ・عدد الرسائل المرسلة**\n**- [ :inbox_tray: :: ${successCount} ] ・عدد الرسائل المستلمة**\n**- [ :outbox_tray: :: ${errorCount} ]・عدد الرسائل الغير مستلمة**`);
@@ -236,7 +192,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription('📬 تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : Nova  ")
+     .setFooter("By : My.BlackOps  ")
                                                 
 
 message.channel.send(embed);
@@ -663,8 +619,8 @@ client.on("message", message => {
 
 
 const adminprefix = "$";
-const developers = ["352533519068823556"]//Nova Codes
-client.on('message', message => {//Nova Codes
+const developers = ["352533519068823556"]//Maigc0
+client.on('message', message => {//Magic0
     var argresult = message.content.split(` `).slice(1).join(' ');//Nova Codes
       if (!developers.includes(message.author.id)) return;
      
@@ -700,7 +656,7 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {//Nova Codes
     message.channel.send(`Changing The Avatar To :**${argresult}** `);//Nova Codes
 }
 
-});//Toxic Codes
+});//Magic0
 
 
 client.on('message', message => {
@@ -788,12 +744,12 @@ var cont = message.content.slice(prefix.length).split(" ");
 
 
 var prefix = "$";
-   client.on('message',function(message) { // Leaked by [ @M3a4x ]
+   client.on('message',function(message) { // Leaked by [ Magic0 ]
       if(message.content === prefix + "inv") {
           if(!message.channel.guild) return;
           var mmmmEmbed = new Discord.RichEmbed()
           .setAuthor(client.user.username)
-          .setTitle('𝔾𝔼𝕂𝕆 𝕌𝕄𝔼')
+          .setTitle('My.BlackOps')
           .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=531729259421499402&permissions=8&scope=bot`)
            if(message.author.id !== "351366504068939777") return message.reply('**You aren\'t the bot owner.**');
           message.channel.send(mmmmEmbed)
@@ -808,46 +764,11 @@ var prefix = "$";
 
 
 
-////////////////////////////////////////////////////Premium BotEpic/////////////////////////////////////////////////
+////////////////////////////////////////////////////-----------------/////////////////////////////////////////////////
 //////////////////////////////////////////////////////public help////////////////////////////////////////////////////////
 
 
-client.on('message', message => {
-              var prefix = "$" ;
-  if (message.content.startsWith(prefix + "help")) {
-  let embed = new Discord.RichEmbed()
-      .setColor("RANDOM")
-      .setDescription(`
-💜_____ 🖤😎 - Premium BotEpic - 😎🖤  _____💜
 
-🖤(-server ⟿⟿⟿⟿⟿ About the server)🖤
-
-🖤(-allbots ⟿⟿ Nubmers bots in server)🖤
-
-🖤(-botin ⟿⟿⟿⟿⟿⟿ Bot Information)🖤
-
-🖤(-report ⟿⟿⟿⟿⟿ Report a member)🖤
-
-🖤(-support ⟿⟿ Contact with the bot owner)🖤
-
-🖤(-avatar ⟿⟿⟿⟿⟿ View your avatar)🖤
-
-🖤(-members ⟿⟿⟿⟿ Status of member)🖤
-
-🖤(-say ⟿⟿⟿⟿⟿⟿ Status of member)🖤
-
-🖤(-emojis ⟿⟿⟿⟿⟿ Emoji Of Server)🖤
-
-
-💜_____ 🖤😎 - Premium BotEpic - 😎🖤  _____💜
-
- `)
-   message.channel.sendEmbed(embed)
-   
-	  
-	  
-   }
-   });
    
 
 
@@ -934,10 +855,10 @@ client.on("message", message => {
  if (message.content === "$support") {
   const embed = new Discord.RichEmbed()
       .setTitle('Click here')
-      .setURL(' https://discord.gg/t8tXaS ')
+      .setURL(' https://discord.gg/b99nSXy ')
       .setColor("RANDOM")
-      .setFooter('♥Premium BotEpic♥ جميع الحقوق محفوظة 2019 لبوت')  
-      .addField('سيرفر الدعم الفني', ` https://discord.gg/t8tXaS  `)
+      .setFooter('♥My.Melody♥ جميع الحقوق محفوظة 2019 لبوت')  
+      .addField('سيرفر الدعم الفني', ` https://discord.gg/b99nSXy  `)
   message.author.send({embed});
 
  }
@@ -1006,35 +927,12 @@ message.channel.send(`** ${args}**`);
 }
 });
 
-
-
-////////////////////////////////////////////////////OWNER////////////////////////////////////////////////
-client.on('message', message => {
-              var prefix = "$" ;
-  if (message.content.startsWith(prefix + "Magic0")) {
-  if(message.author.id !== "352533519068823556") return message.reply('**You aren\'t the bot owner.**');
-  let embed = new Discord.RichEmbed()
-      .setColor("RANDOM")
-      .setDescription(`
-😈__⚠🚫⚠_ 🖤😎 - Magic0 - 😎🖤  _⚠🚫⚠__😈
-
-🖤(-dc ⟿⟿⟿ Delete all channels)🖤
-
-🖤(-dr ⟿⟿⟿⟿ Delete all roles)🖤
-
-🖤(-inv ⟿⟿⟿⟿ Invite bot owner)🖤
-
-
-😈__⚠🚫⚠_ 🖤😎 - Magic0 - 😎🖤  _⚠🚫⚠__😈
-
- `)
-   message.channel.sendEmbed(embed)
-   
-	  
-	  
-   }
-   });
-
+client.on("ready", () => { // كود رينبو
+  function lol() {
+    client.guilds.get('521126103587225630').roles.find("name", "Rainbow").setColor("RANDOM");
+  };
+  setInterval(lol, 2000);
+});
 
 
 client.login(process.env.BOT_TOKEN);
