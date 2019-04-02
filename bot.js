@@ -50,7 +50,7 @@ ${emoji2}**|$banlist ⟿⟿ Number Ban from server|**${emoji4}
 
 ${emoji2}**|$bc ⟿⟿⟿ Brodcast all member|**${emoji4}
 
-🖤($call ⟿⟿ Contact with admin|**${emoji4}
+${emoji2}**|$call ⟿⟿ Contact with admin|**${emoji4}
 
 ${emoji2}**|$kv ⟿⟿⟿⟿⟿ Kick from voice|**${emoji4}
 
@@ -79,7 +79,7 @@ ${emoji2}**|$unmc ⟿⟿⟿⟿⟿ Unmute channel|**${emoji4}
 ${emoji2}**|$mute ⟿⟿⟿⟿⟿⟿ Mute member|**${emoji4}
 
 ${emoji2}**|$unmute ⟿⟿⟿⟿ Unmute member|**${emoji4}
-**
+
    `,`
         ***__Music orders__***
 **
