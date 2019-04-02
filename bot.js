@@ -42,9 +42,9 @@ ${emoji2}**|-emojis ⟿⟿⟿⟿⟿ Emoji Of Server|**${emoji4}
 
   `
 ,`
-        **${emoji3}  𝗔𝗗𝗠𝗜𝗡𝗜𝗦𝗧𝗥𝗔𝗧𝗢𝗥 - 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦$  ${emoji}**
+        **${emoji3}  𝗔𝗗𝗠𝗜𝗡𝗜𝗦𝗧𝗥𝗔𝗧𝗢𝗥 - 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦  ${emoji}**
 **
-${emoji2}**|$nick ⟿ Change nickname all members|**${emoji4}
+${emoji2}**|$nick ⟿ Change nickname all members|**${emoji4} **hi**
 
 ${emoji2}**|$banlist ⟿⟿ Number Ban from server|**${emoji4}
 
