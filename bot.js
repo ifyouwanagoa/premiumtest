@@ -18,7 +18,7 @@ let emoji3 = client.guilds.get("553973946354237440").emojis.find(r => r.name ===
               var prefix = "$" ;
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
     let pages = [`**
-        **${emoji3}  𝙋𝙪𝙥𝙡𝙞𝙘-𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨  ${emoji}**
+        **${emoji3}  𝗣𝗨𝗣𝗟𝗜𝗖 - 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦   ${emoji}**
 
 **
 ${emoji2}|-server ⟿⟿⟿⟿⟿ About the server)|
@@ -38,7 +38,7 @@ ${emoji2}|-members ⟿⟿⟿⟿ Status of member|
 ${emoji2}|-say ⟿⟿⟿⟿⟿⟿ Status of member|
 
 ${emoji2}|-emojis ⟿⟿⟿⟿⟿ Emoji Of Server|
-
+**
   `
 ,`
         ***__Administrative Orders__***
