@@ -18,27 +18,26 @@ let emoji3 = client.guilds.get("553973946354237440").emojis.find(r => r.name ===
               var prefix = "$" ;
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
     let pages = [`**
-let emoji = client.guilds.get("562240223556272151").emojis.find(r => r.name === "hearts ");
         **${emoji3}  𝙋𝙪𝙥𝙡𝙞𝙘-𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨  ${emoji}**
+
 **
-${emoji3}|-server ⟿⟿⟿⟿⟿ About the server)|
+${emoji2}|-server ⟿⟿⟿⟿⟿ About the server)|
 
-${emoji3}|-allbots ⟿⟿ Nubmers bots in server|
+${emoji2}|-allbots ⟿⟿ Nubmers bots in server|
 
-${emoji3}|-botin ⟿⟿⟿⟿⟿⟿ Bot Information|
+${emoji2}|-botin ⟿⟿⟿⟿⟿⟿ Bot Information|
 
-${emoji3}|-report ⟿⟿⟿⟿⟿ Report a member|
+${emoji2}|-report ⟿⟿⟿⟿⟿ Report a member|
 
-${emoji3}|-support ⟿⟿ Contact with the bot owner|
+${emoji2}|-support ⟿⟿ Contact with the bot owner|
 
-${emoji3}|-avatar ⟿⟿⟿⟿⟿ View your avatar|
+${emoji2}|-avatar ⟿⟿⟿⟿⟿ View your avatar|
 
-${emoji3}|-members ⟿⟿⟿⟿ Status of member|
+${emoji2}|-members ⟿⟿⟿⟿ Status of member|
 
-${emoji3}|-say ⟿⟿⟿⟿⟿⟿ Status of member|
+${emoji2}|-say ⟿⟿⟿⟿⟿⟿ Status of member|
 
-${emoji3}|-emojis ⟿⟿⟿⟿⟿ Emoji Of Server|
-
+${emoji2}|-emojis ⟿⟿⟿⟿⟿ Emoji Of Server|
 
   `
 ,`
